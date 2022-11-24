@@ -655,10 +655,74 @@ img {
 .portfolio-text {
   font-size: 18px;
   line-height: 1.56;
-  letter-spacing: 0.03em;
+
   color: var(--primary-text-color);
 }
 
+.subscribe {
+  display: block;
+}
+.subscribe-tittle {
+  display: block;
+  margin: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.subscribe-form {
+  display: flex;
+  gap: 10px;
+}
+input {
+  padding-top: 15px;
+  font-family: inherit;
+}
+.subscribe-input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  background: #2f303a;
+  color: rgba(255, 255, 255, 0.6);
+}
+.subscribe-btn {
+  display: flex;
+  padding: 10px 28px;
+  width: 200px;
+  align-items: center;
+  text-align: center;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+  border: 0 solid transparent;
+
+  border-radius: 4px;
+
+  color: var(--body-bg-color);
+  background-color: var(--accent-color);
+}
+.subscribe-icon {
+  margin-left: 10px;
+}
 /* Модальне вікно */
 .backdrop {
   position: fixed;
