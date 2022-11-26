@@ -856,10 +856,9 @@ img {
 
 /* Згода на умови */
 .modal-form-agreement {
-  /* padding-left: 12px; */
+  padding-left: 12px;
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 7px;
 }
 .modal-form-checkbox {
