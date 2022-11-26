@@ -491,8 +491,8 @@ img {
 }
 .footer-container {
   display: flex;
-  gap: 70px;
   align-items: baseline;
+  justify-content: space-between;
 }
 .logo-footer {
   color: var(--body-bg-color);
@@ -778,7 +778,7 @@ img {
 }
 .modal-tittle {
   display: block;
-  padding-bottom: 12px;
+  margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -856,9 +856,10 @@ img {
 
 /* Згода на умови */
 .modal-form-agreement {
-  padding-left: 12px;
+  /* padding-left: 12px; */
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 7px;
 }
 .modal-form-checkbox {
